@@ -11,7 +11,7 @@ const WatchStory = () => {
         <div className="overflow__city">
           <div className="watchStory__container">
             <div className="videoImage__block" onClick={() => setOpen(!open)}>
-              <img src="/src/assets/frameVideo.png" alt="Video" />
+              <img src="/assets/frameVideo.png" alt="Video" />
               <h4>Watch our story</h4>
             </div>
             <div className="iframe">

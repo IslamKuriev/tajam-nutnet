@@ -7,11 +7,11 @@ const OurWorks = () => {
         <h3>our works</h3>
         <div>
           <span>See All Project in dribbble</span>
-          <img src="/src/assets/bracket.png" alt="bracket" />
+          <img src="/assets/bracket.png" alt="bracket" />
         </div>
       </div>
       <div className="ourWorks__main">
-        <img src="/src/assets/worksMain.png" alt="worksMain" />
+        <img src="/assets/worksMain.png" alt="worksMain" />
       </div>
       <div className="ourWorks__foot">
         <button>learn more</button>

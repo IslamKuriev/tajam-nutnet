@@ -3,7 +3,7 @@ const OurStory = () => {
   return (
     <div className="ourStory__container">
       <div className="ourStory__logo">
-        <img src="/src/assets/logoOurStory.png" alt="Logo" />
+        <img src="/assets/logoOurStory.png" alt="Logo" />
       </div>
       <div className="ourStory__info">
         <h2>Our Story</h2>

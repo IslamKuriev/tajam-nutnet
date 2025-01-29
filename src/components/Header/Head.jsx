@@ -7,7 +7,7 @@ const Head = () => {
           <div className="head__container">
             <div className="nav__container">
               <div className="logo__block">
-                <img src="/src/assets/logo.png" alt="logo" />
+                <img src="/assets/logo.png" alt="logo" />
                 <span>tajam</span>
               </div>
               <ul>

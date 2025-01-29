@@ -12,7 +12,7 @@ const Expertise = () => {
         <div className="description__block">
           <div>
             <div className="img__desc">
-              <img src="/src/assets/computer.png" alt="computer" />
+              <img src="/assets/computer.png" alt="computer" />
             </div>
             <br />
             <h3>WEB DESIGN & DEVELOPMENT</h3>
@@ -24,7 +24,7 @@ const Expertise = () => {
           <div>
             {' '}
             <div className="img__desc">
-              <img src="/src/assets/tassel.png" alt="tasel" />
+              <img src="/assets/tassel.png" alt="tasel" />
             </div>
             <br />
             <h3>BRANDING IDENTITY</h3>
@@ -36,7 +36,7 @@ const Expertise = () => {
           <div>
             {' '}
             <div className="img__desc">
-              <img src="/src/assets/phone.png" alt="phone" />
+              <img src="/assets/phone.png" alt="phone" />
             </div>
             <br />
             <h3>MOBILE APP</h3>
@@ -50,7 +50,7 @@ const Expertise = () => {
           <div>
             {' '}
             <div className="img__desc">
-              <img src="/src/assets/block.png" alt="block" />
+              <img src="/assets/block.png" alt="block" />
             </div>
             <br />
             <h3>SEARCH ENGINE OPTIMIZATION</h3>
@@ -62,7 +62,7 @@ const Expertise = () => {
           <div>
             {' '}
             <div className="img__desc">
-              <img src="/src/assets/prefix.png" alt="prefix" />
+              <img src="/assets/prefix.png" alt="prefix" />
             </div>
             <br />
             <h3>GAME DEVELOPMENT</h3>
@@ -74,7 +74,7 @@ const Expertise = () => {
           <div>
             {' '}
             <div className="img__desc">
-              <img src="/src/assets/heart.png" alt="heart" />
+              <img src="/assets/heart.png" alt="heart" />
             </div>
             <br />
             <h3>MADE WITH LOVE</h3>

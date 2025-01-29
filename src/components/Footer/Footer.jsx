@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="footer__container">
             <div className="navigation__block">
               <div className="logoFoot__block">
-                <img src="src/assets/logo.png" alt="logo" />
+                <img src="/assets/logo.png" alt="logo" />
                 <span>tajam</span>
               </div>
               <p>
@@ -23,14 +23,14 @@ const Footer = () => {
             <div className="adress__block">
               <h4>Our studio</h4>
               <div className="location__desc">
-                <img src="/src/assets/footer/location.png" alt="location" />
+                <img src="/assets/footer/location.png" alt="location" />
                 <p>
                   Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480
                   - Indonesia
                 </p>
               </div>
               <div className="phone">
-                <img src="/src/assets/footer/call.png" alt="call" />
+                <img src="/assets/footer/call.png" alt="call" />
                 (+62) 21-2224 3333
               </div>
             </div>
@@ -41,27 +41,27 @@ const Footer = () => {
                   <input type="text" placeholder="Subscribe our newsletter" />{' '}
                 </div>
                 <button>
-                  <img src="/src/assets/footer/airplane.png" alt="airplane" />
+                  <img src="/assets/footer/airplane.png" alt="airplane" />
                 </button>
               </div>
               <div className="social_network">
                 <div>
-                  <img src="/src/assets/footer/facebook.png" alt="facebook" />
+                  <img src="/assets/footer/facebook.png" alt="facebook" />
                 </div>
                 <div>
-                  <img src="/src/assets/footer/twitter.png" alt="twitter" />
+                  <img src="/assets/footer/twitter.png" alt="twitter" />
                 </div>
                 <div>
-                  <img src="/src/assets/footer/social.png" alt="social" />
+                  <img src="/assets/footer/social.png" alt="social" />
                 </div>
                 <div>
-                  <img src="/src/assets/footer/instagram.png" alt="instagram" />
+                  <img src="/assets/footer/instagram.png" alt="instagram" />
                 </div>
                 <div>
-                  <img src="/src/assets/footer/google.png" alt="google" />
+                  <img src="/assets/footer/google.png" alt="google" />
                 </div>
                 <div>
-                  <img src="/src/assets/footer/youtube.png" alt="youtube" />
+                  <img src="/assets/footer/youtube.png" alt="youtube" />
                 </div>
               </div>
               <span>Copyright © 2015 - Tajem Creative</span>

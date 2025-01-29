@@ -7,7 +7,7 @@ const Authors = () => {
         <div className="overflow__city" style={{ height: '500px' }}>
           <div className="authors__main">
             <div className="brackets__block">
-              <img src="/src/assets/brackets.png" alt="brackets" />
+              <img src="/assets/brackets.png" alt="brackets" />
             </div>
             <div className="authors__text">
               <p>
@@ -23,11 +23,11 @@ const Authors = () => {
               <span style={{ fontSize: '13px', fontWeight: '300' }}>CEO TENGKUREP</span>
             </div>
             <div className="authors__block">
-              <img src="/src/assets/authors/one.png" alt="authorsImg" />
-              <img src="/src/assets/authors/two.png" alt="authorsImg" />
-              <img src="/src/assets/authors/three.png" alt="authorsImg" />
-              <img src="/src/assets/authors/fourth.png" alt="authorsImg" />
-              <img src="/src/assets/authors/five.png" alt="authorsImg" />
+              <img src="/assets/authors/one.png" alt="authorsImg" />
+              <img src="/assets/authors/two.png" alt="authorsImg" />
+              <img src="/assets/authors/three.png" alt="authorsImg" />
+              <img src="/assets/authors/fourth.png" alt="authorsImg" />
+              <img src="/assets/authors/five.png" alt="authorsImg" />
             </div>
           </div>
         </div>
