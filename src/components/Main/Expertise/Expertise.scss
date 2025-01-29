@@ -1,0 +1,65 @@
+.expertise__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 752px;
+}
+.expertise__info {
+  margin-top: 30px;
+  h2 {
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.33px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #413d4b;
+  }
+  p {
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.66px;
+    color: #2f2d35;
+  }
+  div {
+    width: 40px;
+    height: 2px;
+    background: #413d4b4d;
+    margin: auto;
+  }
+}
+.expertise__description {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.description__block {
+  display: flex;
+  gap: 50px;
+
+  .img__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.41px;
+    text-align: center;
+    color: #413d4b;
+  }
+  p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    width: 277px;
+    color: #333333;
+  }
+}

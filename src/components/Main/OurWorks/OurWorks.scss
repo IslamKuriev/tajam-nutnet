@@ -1,0 +1,62 @@
+$btnColor: #00e0d0;
+
+.ourWorks__container {
+  display: flex;
+  flex-direction: column;
+}
+.ourWorks__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  h3 {
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-transform: uppercase;
+    color: #413d4b;
+  }
+  span {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #413d4b;
+  }
+  img {
+    margin-left: 10px;
+  }
+}
+.ourWorks__main {
+  margin-top: 30px;
+  img {
+    width: 1519px;
+  }
+}
+.ourWorks__foot {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  button {
+    border: 1px solid $btnColor;
+    background: transparent;
+    color: $btnColor;
+    width: 118px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  button:hover {
+    color: #41c3ba;
+    border: 1px solid #41c3ba;
+    transform: translateY(5%);
+  }
+}

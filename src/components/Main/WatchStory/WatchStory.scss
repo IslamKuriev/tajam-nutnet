@@ -1,0 +1,60 @@
+.line__city {
+  width: 1519px;
+  height: 550px;
+  background-image: url('/src/assets/cityOverflow.png');
+}
+.overflow__city {
+  background: #311d5ed9;
+  width: 1519px;
+  height: 550px;
+  opacity: 85%;
+}
+.watchStory__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+  .videoImage__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    img {
+      width: 90px;
+      transition: 0.2s;
+    }
+    h4 {
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 28.8px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+  .videoImage__block:hover {
+    img {
+      width: 95px;
+    }
+  }
+  .iframe {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    margin-bottom: 10px;
+    button {
+      border: 1px solid #6e6e6e;
+      background: transparent;
+      color: #00e0d0;
+      width: 118px;
+      height: 40px;
+      text-transform: uppercase;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 25.2px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+$btnColor: #00e0d0;
+.line__tree {
+  width: 1519px;
+  height: 670px;
+  background-image: url('/src/assets/frameLogo.png');
+}
+.overlay__tree {
+  background: #311d5ed9;
+  width: 1519px;
+  height: 670px;
+  opacity: 85%;
+}
+.head__container {
+  font-family: 'Roboto';
+}
+.nav__container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.logo__block {
+  display: flex;
+  align-items: center;
+  span {
+    color: $btnColor;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+}
+ul {
+  display: flex;
+  gap: 27px;
+  font-size: 13px;
+  text-transform: uppercase;
+  list-style: none;
+  color: #ffffff;
+  font-weight: 900;
+  transition: 0.2s;
+  li {
+    transition: 0.2s;
+  }
+  li:hover {
+    transform: translateY(6%);
+  }
+}
+.head__info {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+  }
+  div {
+    width: 47px;
+    height: 2px;
+    background: $btnColor;
+  }
+  p {
+    font-family: Roboto;
+    width: 780px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: center;
+    color: #ffffff;
+  }
+  button {
+    border: 1px solid $btnColor;
+    background: transparent;
+    color: $btnColor;
+    width: 118px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  button:hover {
+    color: #41c3ba;
+    border: 1px solid #41c3ba;
+    transform: translateY(5%);
+  }
+}
