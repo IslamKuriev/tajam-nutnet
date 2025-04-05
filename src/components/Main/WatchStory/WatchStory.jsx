@@ -18,9 +18,9 @@ const WatchStory = () => {
               {open && (
                 <>
                   <iframe
-                    width="850"
-                    height="485"
-                    src="https://rutube.ru/play/embed/f884aa6ed5f94120b7304506042fe5bb/"
+                    width="720"
+                    height="405"
+                    src="https://rutube.ru/play/embed/9f9ff0b35e342852bfb7be951e0da837"
                     frameBorder="0"
                     allow="clipboard-write; autoplay"
                     webkitAllowFullScreen
